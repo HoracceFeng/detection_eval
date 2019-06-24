@@ -67,26 +67,26 @@ All Done and enjoy!
 
 ### Parameters of `run-map_eval.sh`
 ```
-    --mode            "standard" or "caliber". "standard" get result by different class, "caliber" sum up all classes as `dectboxes`
-    --buffer          if run in first time, give a pkl filepath and it will generate automatically. If pkl exists, the code will load annotation and detection faster
-    --annotation_file annotation filepath. If buffer file .pkl exists, this will not be used
-    --detection_file  detection filepath. If buffer file .pkl exists, this will not be used
-    --dict_file       classes name txtfile 
-    --confidence      default 0.5, but can change from 0 to 1
-    --iou             default 0.5, but can change from 0 to 1
-    --missbox         True or False. If True, output a "MISSBOX.txt" file which contain image name that miss the ground-truth box.
-    --scaletest       True or Fasle. If True, output scale test with six objects scales <16, 16-32, 32-48, 48-64, 64-96, >96
+--mode            	"standard" or "caliber". "standard" get result by different class, "caliber" sum up all classes as `dectboxes`
+--buffer          	if run in first time, give a pkl filepath and it will generate automatically. If pkl exists, the code will load annotation and detection faster
+--annotation_file 	annotation filepath. If buffer file .pkl exists, this will not be used
+--detection_file  	detection filepath. If buffer file .pkl exists, this will not be used
+--dict_file       	classes name txtfile 
+--confidence      	default 0.5, but can change from 0 to 1
+--iou             	default 0.5, but can change from 0 to 1
+--missbox         	True or False. If True, output a "MISSBOX.txt" file which contain image name that miss the ground-truth box.
+--scaletest       	True or Fasle. If True, output scale test with six objects scales <16, 16-32, 32-48, 48-64, 64-96, >96
 ```
 
 ### Parameters of `run-Linear.sh`
 ```
-    --mode            same as the above
-    --buffer          same as the above
-    --annotation_file same as the above
-    --detection_file  same as the above
-    --dict_file       same as the above
-    --iou             same as the above
-    --output_dir      The directory that save the '.line' file
-    --output_name     The linear file will name as 'LINEAR_[output-name]_[class-name].lines'
+--mode            	same as the above
+--buffer          	same as the above
+--annotation_file 	same as the above
+--detection_file  	same as the above
+--dict_file       	same as the above
+--iou             	same as the above
+--output_dir      	The directory that save the '.line' file
+--output_name     	The linear file will name as 'LINEAR_[output-name]_[class-name].lines'
 ```
 
