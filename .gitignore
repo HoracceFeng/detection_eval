@@ -1,0 +1,8 @@
+# ignore detection-algorithm evaluation result
+/result-for-dect_algo-eval-project/
+# ignore all Traffic-sign detection model result
+/out-result/
+# ignore all .pkl file
+*.pkl
+# ignore garbage
+/.remove/

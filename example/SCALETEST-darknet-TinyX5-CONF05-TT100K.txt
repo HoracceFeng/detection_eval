@@ -1,0 +1,85 @@
+Pickle Exists, Loadin Success ...... result-for-dect_algo-eval-project/darknet-TinyX5/buffer-darknet-TinyX5-TT100K.pkl
+Evaluation Script for detecion algorithm: 
+     to change the parameter, try `python map_eval.py --help` 
+        Parameters: 
+         mode:              standard 
+         buffer:            result-for-dect_algo-eval-project/darknet-TinyX5/buffer-darknet-TinyX5-TT100K.pkl 
+         annotation_file:   result-for-dect_algo-eval-project/GTBOX-TT100K-512.txt 
+         detection_file:    result-for-dect_algo-eval-project/darknet-TinyX5/darknet-TinyX5_45000-nms02-TT100K.txt 
+         dict_file:         result-for-dect_algo-eval-project/FT-sign.dict 
+         confidence:        0.5 
+         iou:               0.5 
+         missbox:           False 
+         scaletest:         True 
+ 
+ImageSet:  	6113
+Scales:    	[16, 32, 48, 64, 96]
+Dictionary:	['prohibit']
+
+
+prohibit	#Annot:13276	#Dects:14175	#Hit:12925		#AP:0.9555	#Precision:0.9118	#Recall:0.9736
+
+
+tag (have gt-boxes class): 1.0
+sum:                       0.9555
+Sum #Anno:13276	Sum #Dects:14175	Sum #Hits:12925	
+Total Precision:0.912	Total Recall:0.974	
+
+
+Whole      mAP [1 type]:	0.956
+Non-sparse mAP [1 type]:	0.956
+===========================================================================================================
+Scale-Test Result	Scale-16
+prohibit	#Annot:822  	#Dects:1114 	#Hit:458  		#AP:0.3441	#Precision:0.4111	#Recall:0.5572
+
+
+tag (have gt-boxes class): 1.0
+sum:                       0.3441
+Sum #Anno:822	Sum #Dects:1114	Sum #Hits:458	
+Total Precision:0.411	Total Recall:0.557	
+===========================================================================================================
+Scale-Test Result	Scale-32
+prohibit	#Annot:6179 	#Dects:6539 	#Hit:5635 		#AP:0.8498	#Precision:0.8618	#Recall:0.912
+
+
+tag (have gt-boxes class): 1.0
+sum:                       0.8498
+Sum #Anno:6179	Sum #Dects:6539	Sum #Hits:5635	
+Total Precision:0.862	Total Recall:0.912	
+===========================================================================================================
+Scale-Test Result	Scale-48
+prohibit	#Annot:3026 	#Dects:3415 	#Hit:2719 		#AP:0.7749	#Precision:0.7962	#Recall:0.8985
+
+
+tag (have gt-boxes class): 1.0
+sum:                       0.7749
+Sum #Anno:3026	Sum #Dects:3415	Sum #Hits:2719	
+Total Precision:0.796	Total Recall:0.899	
+===========================================================================================================
+Scale-Test Result	Scale-64
+prohibit	#Annot:1645 	#Dects:1633 	#Hit:1303 		#AP:0.7066	#Precision:0.7979	#Recall:0.7921
+
+
+tag (have gt-boxes class): 1.0
+sum:                       0.7066
+Sum #Anno:1645	Sum #Dects:1633	Sum #Hits:1303	
+Total Precision:0.798	Total Recall:0.792	
+===========================================================================================================
+Scale-Test Result	Scale-96
+prohibit	#Annot:1017 	#Dects:1136 	#Hit:822  		#AP:0.6268	#Precision:0.7236	#Recall:0.8083
+
+
+tag (have gt-boxes class): 1.0
+sum:                       0.6268
+Sum #Anno:1017	Sum #Dects:1136	Sum #Hits:822	
+Total Precision:0.724	Total Recall:0.808	
+===========================================================================================================
+Scale-Test Result	Scale-above-96
+prohibit	#Annot:587  	#Dects:338  	#Hit:257  		#AP:0.344	#Precision:0.7604	#Recall:0.4378
+
+
+tag (have gt-boxes class): 1.0
+sum:                       0.344
+Sum #Anno:587	Sum #Dects:338	Sum #Hits:257	
+Total Precision:0.76	Total Recall:0.438	
+===========================================================================================================

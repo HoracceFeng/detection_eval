@@ -1,0 +1,10 @@
+Conf:	0.0	AP:	0.9664	Prec:	0.6894	Recall:	0.9858
+Conf:	0.1	AP:	0.9639	Prec:	0.8474	Recall:	0.9826
+Conf:	0.2	AP:	0.9613	Prec:	0.8746	Recall:	0.9801
+Conf:	0.3	AP:	0.9594	Prec:	0.892	Recall:	0.978
+Conf:	0.4	AP:	0.9574	Prec:	0.9023	Recall:	0.9758
+Conf:	0.5	AP:	0.9555	Prec:	0.9118	Recall:	0.9736
+Conf:	0.6	AP:	0.9527	Prec:	0.9204	Recall:	0.9705
+Conf:	0.7	AP:	0.9495	Prec:	0.928	Recall:	0.9671
+Conf:	0.8	AP:	0.9449	Prec:	0.9353	Recall:	0.9623
+Conf:	0.9	AP:	0.9318	Prec:	0.9452	Recall:	0.9482
