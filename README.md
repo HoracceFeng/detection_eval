@@ -18,12 +18,12 @@ This module provides:
 ## Table of Content
 - [Requirement](#Requirement)
 - [How_to_use](#How to use)
-	- [Generate_Detection_Evaluation_Report](#Generate Detection Evaluation Report)
-	- [Draw Precision-Recall Curve](#Draw Precision-Recall Curve)
+	- [Generate Detection Evaluation Report](#Generate-Detection-Evaluation-Report)
+	- [Draw Precision-Recall Curve](#Draw-Precision-Recall-Curve)
 - [Example](#Example)
 - [Appendix](#Appendix)
-	- [Parameters of `run-map_eval.sh`](#Parameters of `run-map_eval.sh`)
-	- [Parameters of `run-Linear.sh`](#Parameters of `run-Linear.sh`)
+	- [Parameters of run-map_eval.sh](#parameters-of-run-map_evalsh)
+	- [Parameters of run-Linear.sh](#parameters-of-run-linearsh)
 
 
 ## Requirement:
