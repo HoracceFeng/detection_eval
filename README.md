@@ -17,7 +17,7 @@ This module provides:
 
 ## Table of Content
 - [Requirement](#Requirement)
-- [How_to_use](#How to use)
+- [How to use](#How0-to-use)
 	- [Generate Detection Evaluation Report](#Generate-Detection-Evaluation-Report)
 	- [Draw Precision-Recall Curve](#Draw-Precision-Recall-Curve)
 - [Example](#Example)
