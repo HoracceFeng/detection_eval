@@ -4,12 +4,26 @@
 
 # Easy to Use: Object Detection Evaluation Script 
 
+[![standard-lib](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/HoracceFeng)
+
+
 This module provides:
 - report of object detection result: Generate report based on different variables, such as confidence, iou threshold, classes, or object scale
 
 - provide `mAP`, `Precision`, `Recall` reuslt on confidence set [ 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ]
 
 - generate `.line` file for Precision-Recall Curve drawing
+
+
+## Table of Content
+- [Requirement](#Requirement)
+- [How to use](#How to use)
+	- [Generate Detection Evaluation Report](#Generate Detection Evaluation Report)
+	- [Draw Precision-Recall Curve](#Draw Precision-Recall Curve)
+- [Example](#Example)
+- [Appendix](#Appendix)
+	- [Parameters of `run-map_eval.sh`](#Parameters of `run-map_eval.sh`)
+	- [Parameters of `run-Linear.sh`](#Parameters of `run-Linear.sh`)
 
 
 ## Requirement:
